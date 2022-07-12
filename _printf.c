@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-
 /**
  * check_for_specifiers - checks if there is a valid format specifier
  * @format: possible format specifier
@@ -74,9 +73,9 @@ int _printf(const char *format, ...)
 		count++;
 		if (format[i + 1] == '%')
 			i += 2;
-		else
-			i++;
-	}
-	va_end(valist);
-	return (count);
+else
+i++;
+}
+va_end(valist);
+return (count);
 }

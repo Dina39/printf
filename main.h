@@ -1,7 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-i
 #include <stdarg.h>
 /**
  * struct print - structure for printing various types

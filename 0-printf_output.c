@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
 * _printf - output according to format.
 * @format: character string.
@@ -21,7 +22,6 @@ count++;
 }
 if (!format[i])
 return (count);
-f = check_for_format_specifiers(&format[i + 1]);
 if (f != NULL)
 {
 count += f(valist);
